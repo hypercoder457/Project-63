@@ -18,7 +18,6 @@ export default class HomeScreen extends Component {
     var searchKeyword = word.toLowerCase();
     var url;
     url = "https://rupinwhitehatjr.github.io/dictionary/"+searchKeyword+".json"
-    //url = "https://rupinwhitehatjr.github.io/dictionary/"+word+".json"
 
     return fetch(url)
       .then((data) => {
